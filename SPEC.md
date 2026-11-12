@@ -74,12 +74,12 @@ lang: en                                        # REQUIRED — BCP-47 code
 description: "Mastery of Python fundamentals." # optional — short summary
 image: ./badge-python-beginner.svg              # REQUIRED — path or URL to SVG file
 issuer:                                         # REQUIRED — badge issuer
-  name: Neuroneo                                #   organisation name
-  url: https://neuroneo.md                      #   issuer URL
-  email: badges@neuroneo.md                     #   optional
+  name: memoneo                                 #   organisation name
+  url: https://memoneo.app                      #   issuer URL
+  email: badges@memoneo.app                     #   optional
 tags: [python, programming, beginner]           # optional
 expires: P2Y                                    # optional — ISO 8601 duration (P2Y = 2 years)
-verification_url: https://neuroneo.md/verify/  # optional — badge assertion verification URL
+verification_url: https://memoneo.app/verify/  # optional — badge assertion verification URL
 alignment:                                      # optional — alignment to external skill frameworks
   - framework: ESCO
     url: https://esco.ec.europa.eu/...
@@ -168,12 +168,12 @@ lang: en
 description: "Mastery of Python fundamentals: variables, control flow, data structures."
 image: ./badge-python-beginner.svg
 issuer:
-  name: Neuroneo
-  url: https://neuroneo.md
-  email: badges@neuroneo.md
+  name: memoneo
+  url: https://memoneo.app
+  email: badges@memoneo.app
 tags: [python, programming, beginner]
 expires: P2Y
-verification_url: https://neuroneo.md/verify/
+verification_url: https://memoneo.app/verify/
 alignment:
   - framework: ESCO
     url: https://esco.ec.europa.eu/en/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fb633c537
@@ -244,7 +244,7 @@ source: ./01-variables.learn.md
 
 The Open Badges 3.0 standard supports **SVG baking**: embedding the badge JSON-LD assertion (learner data, award date, criteria) directly inside the awarded badge SVG file. A baked badge is self-verifiable and portable — the learner can share it on LinkedIn, display it on their portfolio, and anyone can verify its authenticity by inspecting the file.
 
-SVG baking is a **player implementation feature** (Neuroneo), not a BadgeMD spec constraint. The `.badge.md` file defines the badge class; the player handles generating and baking individual assertions.
+SVG baking is a **player implementation feature** (e.g. memoneo), not a BadgeMD spec constraint. The `.badge.md` file defines the badge class; the player handles generating and baking individual assertions.
 
 ---
 
